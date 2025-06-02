@@ -24,9 +24,9 @@ class ConfirmPaymentBIKEScreen extends StatelessWidget {
                      Navigator.push(
                     context,
                     MaterialPageRoute(builder: (_) => const ConfirmMapWrapperScreen()),
-                    
+
                   );
-                    // Add payment logic
+                    
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: AppColors.primary,

@@ -32,8 +32,6 @@ class RideDetailsPopup extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 12),
-
-
             // Pickup time
             const Center(
               child: Column(

@@ -122,5 +122,6 @@ class DriverDetailsPopup extends StatelessWidget {
         ),
       ),
     );
+    
   }
 }
