@@ -7,7 +7,7 @@ class DriverDetailsPopup extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height * 0.65, // Not full screen
+      height: MediaQuery.of(context).size.height * 0.65, 
       decoration: const BoxDecoration(
         color: Colors.black,
         borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
@@ -16,6 +16,7 @@ class DriverDetailsPopup extends StatelessWidget {
       child: SingleChildScrollView(
         child: Column(
           mainAxisSize: MainAxisSize.min,
+          
           children: [
             Center(
               child: Container(

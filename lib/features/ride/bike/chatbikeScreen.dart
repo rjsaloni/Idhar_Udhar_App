@@ -13,8 +13,10 @@ class ChatBikeScreen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.black,
         elevation: 0,
+        
         title: Row(
           children: [
+            
             const CircleAvatar(
               backgroundImage: AssetImage('assets/images/driver_avatar.png'),
               radius: 20,
